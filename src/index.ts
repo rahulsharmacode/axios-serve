@@ -1,2 +1,2 @@
 export { createAxiosInstance } from "./axiosInstance";
-export { useAxiosCall } from "./useAxiosCall";
+export { useAxiosCall,setOptions } from "./useAxiosCall";
