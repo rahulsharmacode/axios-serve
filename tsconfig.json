@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                          // Target ES6 for modern JavaScript features
+    "module": "ESNext",                       // Use ESNext module system, Rollup will handle module bundling
+    "declaration": true,                      // Generate declaration files for type definitions
+    "declarationDir": "./dist/types",         // Output directory for declaration files
+    "outDir": "./dist",                       // Output directory for compiled files
+    "strict": true,                           // Enable all strict type-checking options
+    "esModuleInterop": true,                  // Enable compatibility with CommonJS modules
+    "skipLibCheck": true,                     // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Enforce consistent casing in file names
+    "moduleResolution": "node",               // Use Node module resolution strategy
+    "isolatedModules": true,                  // Ensure each file is treated as a separate module
+    "lib": ["es2017", "dom"]                  // Include modern JavaScript features and browser DOM API
+  },
+  "include": ["src"],                         // Include all TypeScript files in the src directory
+  "exclude": ["node_modules", "dist"]         // Exclude node_modules and dist directories
+}
